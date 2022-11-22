@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Conexion
 {
-    //conexion
+    
     public class Conexion
     {
         private static readonly Conexion _instancia = new Conexion();
