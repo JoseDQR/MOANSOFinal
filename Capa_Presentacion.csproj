@@ -84,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMantCalzado.resx">
+      <DependentUpon>frmMantCalzado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMantMateriales.resx">
       <DependentUpon>frmMantMateriales.cs</DependentUpon>
     </EmbeddedResource>

@@ -76,6 +76,7 @@
             this.btnCatMat.TabIndex = 9;
             this.btnCatMat.Text = "Categoria de Materiales";
             this.btnCatMat.UseVisualStyleBackColor = true;
+            this.btnCatMat.Click += new System.EventHandler(this.btnCatMat_Click);
             // 
             // btnMateriales
             // 
@@ -86,6 +87,7 @@
             this.btnMateriales.TabIndex = 8;
             this.btnMateriales.Text = "Materiales";
             this.btnMateriales.UseVisualStyleBackColor = true;
+            this.btnMateriales.Click += new System.EventHandler(this.btnMateriales_Click);
             // 
             // btnCatCal
             // 
@@ -96,6 +98,7 @@
             this.btnCatCal.TabIndex = 7;
             this.btnCatCal.Text = "Categoria de Calzado";
             this.btnCatCal.UseVisualStyleBackColor = true;
+            this.btnCatCal.Click += new System.EventHandler(this.btnCatCal_Click);
             // 
             // btnLineaCal
             // 
@@ -106,6 +109,7 @@
             this.btnLineaCal.TabIndex = 6;
             this.btnLineaCal.Text = "Linea de Calzado";
             this.btnLineaCal.UseVisualStyleBackColor = true;
+            this.btnLineaCal.Click += new System.EventHandler(this.btnLineaCal_Click);
             // 
             // btnCalzado
             // 
@@ -116,6 +120,7 @@
             this.btnCalzado.TabIndex = 5;
             this.btnCalzado.Text = "Calzado";
             this.btnCalzado.UseVisualStyleBackColor = true;
+            this.btnCalzado.Click += new System.EventHandler(this.btnCalzado_Click);
             // 
             // pictureBox1
             // 

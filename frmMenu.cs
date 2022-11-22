@@ -17,29 +17,34 @@ namespace PrototipoMOANSOT2
             InitializeComponent();
         }
 
-        private void btnProducto_Click(object sender, EventArgs e)
+        private void btnCalzado_Click(object sender, EventArgs e)
         {
-            
+            Form Calzado = new frmMantCalzado();
+            Calzado.Show();
         }
 
-        private void btnClientes_Click(object sender, EventArgs e)
+        private void btnLineaCal_Click(object sender, EventArgs e)
         {
-            
+            Form LineaCal = new frmMantLineaCalzado();
+            LineaCal.Show();
         }
 
-        private void btnPersonal_Click(object sender, EventArgs e)
+        private void btnCatCal_Click(object sender, EventArgs e)
         {
-            
+            Form CatCal = new frmMantenedorCategoriaCalzado();
+            CatCal.Show();
         }
 
-        private void btnPedido_Click(object sender, EventArgs e)
+        private void btnMateriales_Click(object sender, EventArgs e)
         {
-            
+            Form Materiales = new frmMantMateriales();
+            Materiales.Show();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnCatMat_Click(object sender, EventArgs e)
         {
-            
+            Form CatMat = new frmMantCategoriaMateriales();
+            CatMat.Show();
         }
     }
 }
