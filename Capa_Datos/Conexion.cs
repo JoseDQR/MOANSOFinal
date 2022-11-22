@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Conexion
+namespace Capa_Datos
 {
     public class Conexion
     {
