@@ -19,31 +19,27 @@ namespace PrototipoMOANSOT2
 
         private void btnProducto_Click(object sender, EventArgs e)
         {
-            Form formularioProducto = new frmMantProductos();
-            formularioProducto.Show();
+            
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            Form formularioClientes = new frmMantProveedor();
-            formularioClientes.Show();
+            
         }
 
         private void btnPersonal_Click(object sender, EventArgs e)
         {
-            Form formularioPersonal = new frmMantPersonal();
-            formularioPersonal.Show();
+            
         }
 
         private void btnPedido_Click(object sender, EventArgs e)
         {
-            Form formularioPedido = new frmMantPedido();
-            formularioPedido.Show();
+            
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
+            
         }
     }
 }

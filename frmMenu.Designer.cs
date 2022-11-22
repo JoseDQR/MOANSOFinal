@@ -28,98 +28,135 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClientes = new System.Windows.Forms.Button();
-            this.btnProducto = new System.Windows.Forms.Button();
-            this.btnPersonal = new System.Windows.Forms.Button();
-            this.btnPedido = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCatMat = new System.Windows.Forms.Button();
             this.btnMateriales = new System.Windows.Forms.Button();
+            this.btnCatCal = new System.Windows.Forms.Button();
+            this.btnLineaCal = new System.Windows.Forms.Button();
+            this.btnCalzado = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnClientes
+            // panel1
             // 
-            this.btnClientes.Location = new System.Drawing.Point(12, 131);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(174, 113);
-            this.btnClientes.TabIndex = 0;
-            this.btnClientes.Text = "Mantenedor Proveedor";
-            this.btnClientes.UseVisualStyleBackColor = true;
-            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(313, 65);
+            this.panel1.TabIndex = 0;
             // 
-            // btnProducto
+            // panel2
             // 
-            this.btnProducto.Location = new System.Drawing.Point(12, 12);
-            this.btnProducto.Name = "btnProducto";
-            this.btnProducto.Size = new System.Drawing.Size(174, 113);
-            this.btnProducto.TabIndex = 1;
-            this.btnProducto.Text = "Mantenedor Producto";
-            this.btnProducto.UseVisualStyleBackColor = true;
-            this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btnCatMat);
+            this.panel2.Controls.Add(this.btnMateriales);
+            this.panel2.Controls.Add(this.btnCatCal);
+            this.panel2.Controls.Add(this.btnLineaCal);
+            this.panel2.Controls.Add(this.btnCalzado);
+            this.panel2.Location = new System.Drawing.Point(23, 71);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(266, 364);
+            this.panel2.TabIndex = 1;
             // 
-            // btnPersonal
+            // btnCatMat
             // 
-            this.btnPersonal.Location = new System.Drawing.Point(12, 250);
-            this.btnPersonal.Name = "btnPersonal";
-            this.btnPersonal.Size = new System.Drawing.Size(174, 113);
-            this.btnPersonal.TabIndex = 2;
-            this.btnPersonal.Text = "Mantenedor Personal";
-            this.btnPersonal.UseVisualStyleBackColor = true;
-            this.btnPersonal.Click += new System.EventHandler(this.btnPersonal_Click);
-            // 
-            // btnPedido
-            // 
-            this.btnPedido.Location = new System.Drawing.Point(506, 59);
-            this.btnPedido.Name = "btnPedido";
-            this.btnPedido.Size = new System.Drawing.Size(174, 113);
-            this.btnPedido.TabIndex = 3;
-            this.btnPedido.Text = "Mantenedor Pedido";
-            this.btnPedido.UseVisualStyleBackColor = true;
-            this.btnPedido.Click += new System.EventHandler(this.btnPedido_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(567, 369);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(113, 76);
-            this.btnSalir.TabIndex = 4;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnCatMat.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnCatMat.Location = new System.Drawing.Point(3, 289);
+            this.btnCatMat.Name = "btnCatMat";
+            this.btnCatMat.Size = new System.Drawing.Size(258, 65);
+            this.btnCatMat.TabIndex = 9;
+            this.btnCatMat.Text = "Categoria de Materiales";
+            this.btnCatMat.UseVisualStyleBackColor = true;
             // 
             // btnMateriales
             // 
-            this.btnMateriales.Location = new System.Drawing.Point(506, 178);
+            this.btnMateriales.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnMateriales.Location = new System.Drawing.Point(3, 218);
             this.btnMateriales.Name = "btnMateriales";
-            this.btnMateriales.Size = new System.Drawing.Size(174, 113);
-            this.btnMateriales.TabIndex = 5;
-            this.btnMateriales.Text = "Mantenedor Materiales";
+            this.btnMateriales.Size = new System.Drawing.Size(258, 65);
+            this.btnMateriales.TabIndex = 8;
+            this.btnMateriales.Text = "Materiales";
             this.btnMateriales.UseVisualStyleBackColor = true;
+            // 
+            // btnCatCal
+            // 
+            this.btnCatCal.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnCatCal.Location = new System.Drawing.Point(3, 147);
+            this.btnCatCal.Name = "btnCatCal";
+            this.btnCatCal.Size = new System.Drawing.Size(258, 65);
+            this.btnCatCal.TabIndex = 7;
+            this.btnCatCal.Text = "Categoria de Calzado";
+            this.btnCatCal.UseVisualStyleBackColor = true;
+            // 
+            // btnLineaCal
+            // 
+            this.btnLineaCal.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnLineaCal.Location = new System.Drawing.Point(3, 76);
+            this.btnLineaCal.Name = "btnLineaCal";
+            this.btnLineaCal.Size = new System.Drawing.Size(258, 65);
+            this.btnLineaCal.TabIndex = 6;
+            this.btnLineaCal.Text = "Linea de Calzado";
+            this.btnLineaCal.UseVisualStyleBackColor = true;
+            // 
+            // btnCalzado
+            // 
+            this.btnCalzado.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnCalzado.Location = new System.Drawing.Point(3, 5);
+            this.btnCalzado.Name = "btnCalzado";
+            this.btnCalzado.Size = new System.Drawing.Size(258, 65);
+            this.btnCalzado.TabIndex = 5;
+            this.btnCalzado.Text = "Calzado";
+            this.btnCalzado.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(11, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(288, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 457);
-            this.Controls.Add(this.btnMateriales);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnPedido);
-            this.Controls.Add(this.btnPersonal);
-            this.Controls.Add(this.btnProducto);
-            this.Controls.Add(this.btnClientes);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(313, 439);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.MaximumSize = new System.Drawing.Size(329, 478);
+            this.MinimumSize = new System.Drawing.Size(329, 478);
             this.Name = "frmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MENU";
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnClientes;
-        private System.Windows.Forms.Button btnProducto;
-        private System.Windows.Forms.Button btnPersonal;
-        private System.Windows.Forms.Button btnPedido;
-        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnCatMat;
         private System.Windows.Forms.Button btnMateriales;
+        private System.Windows.Forms.Button btnCatCal;
+        private System.Windows.Forms.Button btnLineaCal;
+        private System.Windows.Forms.Button btnCalzado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

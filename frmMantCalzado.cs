@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace PrototipoMOANSOT2
 {
-    public partial class frmMantPersonal : Form
+    public partial class frmMantCalzado : Form
     {
-        public frmMantPersonal()
+        public frmMantCalzado()
         {
             InitializeComponent();
-        }
-
-        private void btnNuevoPer_Click(object sender, EventArgs e)
-        {
-            Form formNuevoPer = new NuevoPersonal();
-            formNuevoPer.Show();
         }
     }
 }

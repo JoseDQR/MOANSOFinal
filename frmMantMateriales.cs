@@ -19,8 +19,7 @@ namespace PrototipoMOANSOT2
 
         private void btnNuevoMat_Click(object sender, EventArgs e)
         {
-            Form formNuevoMat = new NuevoMaterial();
-            formNuevoMat.Show();
+            
         }
     }
 }

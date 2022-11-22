@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace PrototipoMOANSOT2
 {
-    public partial class frmMantProveedor : Form
+    public partial class frmMantCategoriaMateriales : Form
     {
-        public frmMantProveedor()
+        public frmMantCategoriaMateriales()
         {
             InitializeComponent();
-        }
-
-        private void btnNuevoCli_Click(object sender, EventArgs e)
-        {
-            Form formularioNuevoProv = new NuevoProveedor();
-            formularioNuevoProv.Show();
         }
     }
 }
