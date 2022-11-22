@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ent_Calzado.cs" />
+    <Compile Include="Ent_CategoriaCalzado.cs" />
+    <Compile Include="Ent_LineaCalzado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

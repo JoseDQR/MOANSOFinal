@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="Dat_Calzado.cs" />
+    <Compile Include="Dat_CategoriaCalzado.cs" />
+    <Compile Include="Dat_LineaCalzado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
